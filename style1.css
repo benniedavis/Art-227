@@ -1,0 +1,512 @@
+/*
+ 
+CSS for Unification City Revolutionary Notion site 
+*/
+ 
+
+body{
+
+     font-family: Verdana, Helvetical, Arial, sans-serif;
+
+     background-color: #e2edff;
+  
+     line-height: 200%;
+  
+     padding: ;
+  
+     margin:0;
+
+}
+
+h1 {
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+
+     font-size: x-large;
+     
+     color: white;
+
+}
+
+li {
+
+     font-size: medium;
+     
+     list-style-type: none;
+
+}
+
+h2 {
+  
+    
+ color: white;
+
+
+     font-size: medium;
+ 
+     
+     font-weight: bold;
+
+}
+ 
+
+p  {
+
+    
+     font-size: small;
+
+     
+     color: navy;
+ 
+
+}
+
+em {
+ 
+     font-style: ;
+    
+     text-transform: uppercase;
+
+}
+
+#tagline
+p {
+
+ 
+    font-style: italic;
+     
+ 
+     font-family: Georgia,Times, serif;
+      
+     background-color: #bed8f3;
+     
+     border-top: 5px solid #7da5d8;
+ 
+      
+     border-bottom: 5px solid #7da5d8;
+      
+     padding-top: .4em;
+    
+    
+ padding-bottom: .4em;
+ 
+      
+     padding-left: .12em;
+      
+     margin: 0;
+      
+     background: #bed8f3 url(web1.png) repeat-y
+ right;
+
+}
+
+
+h1, h2, h3 {
+ 
+
+     font-family: Trebuchet MS", Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+ 
+     font-size: x-large;
+ 
+     
+     background-color: navy;
+
+     
+     color: white;
+
+     
+     padding-top: 2em;
+ 
+     
+     padding-bottom: .2em;
+ 
+     
+     padding-left: .4em;
+
+     
+     margin: 0;
+     
+     background: navy url(color.jpg) repeat-y
+ right;
+
+}
+
+h2 {
+ 
+     color: navy;
+ 
+     
+     font-size: 200%;
+ 
+     
+     font-weight: normal;
+
+     
+     padding-top: 50px;
+
+}
+
+
+
+a {
+  font-weight: bold;
+ 
+     color:navy;
+
+}
+
+
+a {
+
+  font-weight: bold;
+
+
+}
+
+
+
+a:link {
+
+  
+     color: black;
+
+
+}
+ 
+
+
+a:visited {
+
+ 
+     color: navy;
+
+
+}
+
+ 
+a:hover {
+ 
+  
+     text-decoration: none;
+
+  
+     color: white;
+
+  
+     background-color: navy;
+
+
+}
+ 
+
+
+a:active {
+
+ 
+     color: aqua;
+
+  
+     background-color: navy;
+
+
+}
+
+
+.fun {
+
+
+     color: #339999;
+
+  
+     font-family: Georgia, Times, serif;
+
+  
+     letter-spacing: 0.05em;
+
+
+}
+
+#navigation {
+  
+     width: 200px;
+  
+     border:8px fade navy;
+  
+     background: #7da5d8 url() no-repeat;
+
+}
+ 
+h2, ul {
+
+ 
+     margin-top: 15px;
+
+
+} 
+
+#navigation, #bodycontent, #header, #benphoto {
+
+
+     position: absolute;
+
+
+}
+
+#navigation, #bodycontent {
+
+ 
+     top: 135px;
+
+}
+ 
+#bodycontent {
+  
+     left:300px;
+
+}
+
+#header, #tagline {
+ 
+    width: 100%;
+
+}
+/*
+ This section deals with the position of items on the screen.
+
+   It uses absolute positioning - fixed x and y coordinates measured
+
+   from the top-left corner of the browser's content display.
+
+*/
+#navigation {
+
+
+    width: 200px;
+ 
+  
+    height: 210px;
+
+}
+
+
+#header {
+
+   border-top: 3px solid #7da5d8;
+
+}
+
+.feature {
+
+
+    float: right;
+
+ 
+    margin: 10px;
+
+
+}
+
+.galleryphoto img {
+  
+    border: 10px solid white;
+
+} 
+.galleryphoto 
+p {
+
+   
+font-size: 150%;
+
+   
+    font-weight: bold;
+
+   
+    margin-top: 0;
+
+   
+    width: 550px;
+ 
+    line-height: 1.4em;
+
+
+}
+
+.photocredit {
+
+
+    font-weight: normal;
+
+   
+    color: gray;
+
+
+}
+.galleryphoto {
+
+
+    padding-bottom: 40px;
+
+ 
+   border-bottom: 3px solid navy;
+
+
+    margin-bottom: 10px;
+
+
+}
+
+#benphoto {
+
+    right: 810px;
+
+    top: 200spx;
+
+}
+
+    table.events {
+ 
+
+    border-collapse: collapse;
+
+}
+ 
+
+table.events th, table.events td {
+
+ 
+   padding: 4px;
+
+ 
+   border: 3px solid #000066;
+ 
+
+}
+
+
+table.events th {
+
+
+    font-size: large;
+
+    text-align: left;
+
+
+    background: #241374 url(bd.jpg);
+
+
+    color: #ffffff;
+
+
+    padding-top: 0;
+
+ 
+   padding-bottom: 0;
+
+ 
+   padding-left: 2px;
+
+ 
+   padding-right: 2px;
+ 
+
+}
+ 
+
+table.events caption {
+
+ 
+   color: #000066;
+
+ 
+   font-size: small;
+
+ 
+   text-align: left;
+
+ 
+   padding-bottom: 5px;
+
+
+    font-weight: bold;
+  
+
+}
+
+table.events td {
+
+ 
+   font-size: small;
+    
+    text-align: left;
+    
+    background: #e2edff url(bd.jpg) repeat-x top;
+
+}
+form.contact fieldset {
+
+    border: 2px solid navy;
+
+    padding: 10px;
+ 
+}
+ 
+form.contact legend {
+
+    font-weight: bold;
+
+    font-size: small;
+
+    color: blue;
+
+    padding: 15px;
+ 
+}
+ 
+form.contact label {
+
+    font-weight: bold;
+
+    font-size: small;
+
+    color: blue;
+ 
+}
+ 
+form.contact label.fixedwidth {
+
+    display: block;
+
+    width: 240px;
+
+    float: left;
+ 
+}
+ 
+form.contact .buttonarea input {
+
+    background: navy;
+
+    color: white;
+
+    font-weight: bold;
+
+    padding: 5px;
+
+    border: 1px solid white;
+ 
+}
+
+form.contact .buttonarea {
+
+    text-align: center;
+
+    padding: 4px;
+
+    background-color: #0066ff;
+ 
+}
+ 
