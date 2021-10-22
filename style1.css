@@ -12,9 +12,9 @@ body{
   
      line-height: 200%;
   
-     padding: ;
+     padding-left:3;
   
-     margin:0;
+     margin-left:0;
 
 }
 
@@ -465,7 +465,8 @@ form.contact legend {
     padding: 15px;
  
 }
- 
+ 
+
 form.contact label {
 
     font-weight: bold;
@@ -485,7 +486,8 @@ form.contact label.fixedwidth {
     float: left;
  
 }
- 
+ 
+
 form.contact .buttonarea input {
 
     background: navy;
@@ -509,4 +511,4 @@ form.contact .buttonarea {
     background-color: #0066ff;
  
 }
- 
+ 
